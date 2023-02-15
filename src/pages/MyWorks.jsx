@@ -4,9 +4,7 @@ import { Layout } from '../components/Layout/Layout'
 const MyWorks = () => {
     return (
         <Layout>
-            <div className='flex flex-col justify-center items-center h-screen'>
-                <h1>My works</h1>
-            </div>
+            <h1 className='text-4xl text-center'>My Works</h1>
         </Layout>
     )
 }

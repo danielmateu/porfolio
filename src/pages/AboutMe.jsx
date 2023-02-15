@@ -3,11 +3,13 @@ import { Layout } from '../components/Layout/Layout'
 
 const Aboutme = () => {
     return (
+        
+
         <Layout>
-            <div className='flex flex-col justify-center items-center h-screen'>
-                <h1>About me</h1>
-            </div>
+            <h1 className='text-4xl text-center'>About Me</h1>
         </Layout>
+        
+        
     )
 }
 

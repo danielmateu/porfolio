@@ -49,7 +49,7 @@ export const Footer = () => {
                     socialMedia.map((socialMedia) => (
                         <li key={socialMedia.id} href="#" className="p-2 cursor-pointer text-gray-400 hover:text-gray-200 transition-all w-10">
                             {/* <a href={socialMedia.url} target='_blank' rel='author' >{socialMedia.name}{socialMedia.img}</a> */}
-                            <a href={socialMedia.url}>{socialMedia.img}</a>
+                            <a href={socialMedia.url} target='_blank'>{socialMedia.img}</a>
 
                         </li>
                     ))

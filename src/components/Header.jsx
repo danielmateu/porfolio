@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 
 
@@ -12,14 +13,17 @@ export const Header = () => {
         {
             id: 1,
             name: 'About me',
+            url: 'about-me'
         },
         {
             id: 2,
             name: 'My works',
+            url: 'my-works'
         },
         {
             id: 3,
             name: 'Contact me',
+            url: 'contact'
         }
     ]
 
@@ -32,7 +36,10 @@ export const Header = () => {
             <div className="flex gap-4">
                 <ul className='flex'>
                     {navOptions.map(navOption => (
-                        <li key={navOption.id} href="#" className="p-2 cursor-pointer text-gray-400 hover:text-gray-200 transition-all">{navOption.name}</li>
+                        <li key={navOption.id} className="p-2 cursor-pointer text-gray-400 hover:text-gray-200 transition-all">
+                            {/* <Link to={navOption.url} >{navOption.name}</Link> */}
+                            <a href={`/${navOption.url}`} >{navOption.name}</a>
+                        </li>
                     ))}
                 </ul>
                 {/* Mode options button */}
