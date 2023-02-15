@@ -7,5 +7,8 @@ module.exports = {
   theme: {
     extend: {},
   },
+  variant: {
+    // textcolor: ["responsive", "hover", "focus", "active"],
+  },
   plugins: [],
 }
