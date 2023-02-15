@@ -6,8 +6,7 @@ import { AppRouter } from './router/AppRouter'
 
 
 function App({
-  title,
-  subtitle,
+
   
 }) {
 
@@ -22,14 +21,5 @@ function App({
   )
 }
 
-// App.propTypes = {
-//   title: PropTypes.string.isRequired,
-//   subtitle: PropTypes.string.isRequired
-// }
-
-// App.defaultProps = {
-//   title: 'Esto va a ser mi Porfolio',
-//   subtitle: 'A ver que sale de aquí'
-// }
 
 export default App

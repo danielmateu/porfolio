@@ -27,7 +27,7 @@ export const Header = () => {
 
     return (
         <nav className='flex flex-col sm:flex-row justify-between items-center py-6 px-4' >
-            <NavLink to='/home' className="flex justify-between items-center text-2xl  text-gray-400 relative shadow-sm font-mono active:text-indigo-400" role="navigation">DM</NavLink>
+            <NavLink to='/home' className="flex justify-between items-center text-2xl  text-gray-400 hover:text-gray-600 relative shadow-sm font-mono transition-all" role="navigation">DM</NavLink>
             {/* Navegador con aboutme my-works contact-me */}
 
             <div className="flex gap-4">
@@ -38,7 +38,7 @@ export const Header = () => {
                             <NavLink
                                 to={`/${navOption.url}`}
                                 // activeclassname="active"
-                                className={"p-2 cursor-pointer text-gray-400 hover:text-gray-200 transition-all active:text-indigo-400"}
+                                className={"p-2 cursor-pointer text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 transition-all"}
                                 
                             >
                                 {navOption.name}

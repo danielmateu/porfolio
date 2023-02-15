@@ -11,4 +11,5 @@ module.exports = {
     // textcolor: ["responsive", "hover", "focus", "active"],
   },
   plugins: [],
+  darkMode: 'class'
 }

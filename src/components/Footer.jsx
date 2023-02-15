@@ -42,12 +42,11 @@ export const Footer = () => {
 
 
     return (
-        <footer className='flex flex-col sm:flex-row justify-between items-center py-6 px-4' >
-
-            <ul className='flex flex-col sm:flex-row text-center mx-auto gap-4'>
+        <footer className='flex  justify-between  py-6 px-4 fixed bottom-0 left-0 right-0' >
+            <ul className='flex text-center gap-4'>
                 {
                     socialMedia.map((socialMedia) => (
-                        <li key={socialMedia.id} href="#" className="p-2 cursor-pointer text-gray-400 hover:text-gray-200 transition-all w-10">
+                        <li key={socialMedia.id} href="#" className="p-2 cursor-pointer text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 transition-all w-10">
                             {/* <a href={socialMedia.url} target='_blank' rel='author' >{socialMedia.name}{socialMedia.img}</a> */}
                             <a href={socialMedia.url} target='_blank'>{socialMedia.img}</a>
 
@@ -55,6 +54,10 @@ export const Footer = () => {
                     ))
                 }
             </ul>
+            {/* //Insertar fecha actual */}
+            <p className='text-gray-400'>{new Date().getFullYear()} - designed by Daniel Mateu ®</p>
+            
+            
         </footer>
     )
 }

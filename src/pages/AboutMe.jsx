@@ -6,7 +6,7 @@ const Aboutme = () => {
         
 
         <Layout>
-            <h1 className='text-4xl text-center'>About Me</h1>
+            <h1 className='text-4xl text-center text-gray-400'>About Me</h1>
         </Layout>
         
         
