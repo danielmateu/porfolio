@@ -1,15 +1,12 @@
-
-
-
 import { Layout } from './components/Layout/Layout'
 import './index.css'
 
-function App({children}) {
+function App() {
 
 
   return (
     <Layout>
-      {children}
+      
     </Layout>
   )
 }
