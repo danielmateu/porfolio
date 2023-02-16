@@ -7,18 +7,18 @@ export const Tecnologias = () => {
         <div className="flex flex-col gap-2 px-10 pt-40 min-h-screen" id='tecnologias'>
             <h3 className='mb-4 px-20 text-4xl text-gray-800 dark:text-gray-400 font-semibold'>Tecnologias usadas</h3>
 
-            <h4 className='text-gray-800 dark:text-gray-400 px-20 selection:bg-sky-300 selection:text-sky-900'>Frontend</h4>
+            <h4 className='text-3xl'>Frontend</h4>
             <div className='flex gap-6'>
-                <div className="w-1/6 grid gap-4">
+                <div className="w-4/12 flex gap-4 items-center justify-center">
                     {
                         iconDataFront.map((icon) => (
-                            <img key={icon.id} src={icon.src} alt={icon.info}/>
+                            <img key={icon.id} src={icon.src} alt={icon.info}  className='hover:rotate-45 transition-all h-16'/>
                         ))
                     }
                     
                 </div>
 
-                <div className="w-5/6">
+                <div className="w-8/12">
 
                     <p>
                         Como front end developer, he estado utilizando una variedad de tecnologías para crear aplicaciones y sitios web interactivos y atractivos. Estas tecnologías incluyen HTML, CSS, JavaScript, SASS, Tailwind, Material UI, ReactJS y NextJS. <br /><br />
@@ -29,34 +29,32 @@ export const Tecnologias = () => {
 
                         En tercer lugar, JavaScript es el lenguaje de programación utilizado para hacer que nuestras páginas sean dinámica e interactiva. Se utiliza para agregar comportamientos a los elementos de la página, como eventos de clic, animaciones y validación de formularios.<br /><br />
 
-                        SASS (Syntactically Awesome Style Sheets) es una extensión de CSS que agrega características adicionales, como variables, funciones y anidamiento de estilos, lo que hace que el código sea más modular y fácil de mantener.<br /><br />
+                        Tailwind es un framework de CSS que proporciona clases predefinidas para estilos comunes, lo que hace que el desarrollo sea más rápido y eficiente. También permite personalizar fácilmente los estilos a través de la configuración de variables.<br /><br />
 
-                        En quinto lugar, Tailwind es un framework de CSS que proporciona clases predefinidas para estilos comunes, lo que hace que el desarrollo sea más rápido y eficiente. También permite personalizar fácilmente los estilos a través de la configuración de variables.
+                        Material UI por su lado, es un framework de diseño que proporciona componentes predefinidos para crear interfaces de usuario basadas en los principios de diseño de Material Design de Google. Estos componentes incluyen botones, tarjetas, formularios y más.<br /><br />
 
-                        En sexto lugar, Material UI es un framework de diseño que proporciona componentes predefinidos para crear interfaces de usuario basadas en los principios de diseño de Material Design de Google. Estos componentes incluyen botones, tarjetas, formularios y más.
+                        ReactJS es una biblioteca de JavaScript utilizada para crear interfaces de usuario dinámicas y escalables. Permite la creación de componentes reutilizables y proporciona un estado de aplicación manejado de forma eficiente para una actualización rápida y fluida de la interfaz de usuario.<br /><br />
 
-                        En séptimo lugar, ReactJS es una biblioteca de JavaScript utilizada para crear interfaces de usuario dinámicas y escalables. Permite la creación de componentes reutilizables y proporciona un estado de aplicación manejado de forma eficiente para una actualización rápida y fluida de la interfaz de usuario.
-
-                        Finalmente, NextJS es un framework de React que proporciona una serie de características adicionales, como el enrutamiento automático, la generación de páginas estáticas y la renderización del lado del servidor. Esto hace que el desarrollo sea más rápido y eficiente y mejora el rendimiento de la aplicación.
+                        Finalmente, NextJS es un framework de React que proporciona una serie de características adicionales, como el enrutamiento automático, la generación de páginas estáticas y la renderización del lado del servidor. Esto hace que el desarrollo sea más rápido y eficiente y mejora el rendimiento de la aplicación.<br /><br />
 
                         En conclusión, estas tecnologías son fundamentales para cualquier front end developer que busque crear sitios web atractivos y funcionales. Desde la estructura básica de HTML hasta las bibliotecas avanzadas de ReactJS y NextJS, estas herramientas permiten la creación de aplicaciones web dinámicas y escalables. El dominio de estas tecnologías es esencial para el éxito en el mundo del desarrollo web.</p>
                 </div>
             </div>
-            <h4 className='text-gray-800 dark:text-gray-400 px-20 selection:bg-sky-300 selection:text-sky-900'>Backend</h4>
+            <h4 className='text-3xl'>Backend</h4>
 
             <div className='flex gap-6'>
-                <div className="w-1/6 grid gap-4">
+                <div className="w-4/12 flex gap-4 flex-wrap items-center justify-center">
 
                     {
                         iconDataBack.map(icon => (
-                            <img src={icon.src} alt={icon.info} />
+                            <img key={icon.id} src={icon.src} alt={icon.info} className='hover:rotate-45 transition-all h-16' />
                         ))
                     }
 
                     
                 </div>
 
-                <div className="w-5/6">
+                <div className="w-8/12">
                     Como backend developer, has estado utilizando una variedad de tecnologías para crear aplicaciones y servicios web escalables y seguros. Estas tecnologías incluyen NodeJS, Express, MongoDB, MySQL, GraphQL, Firebase, y Mongoose. A continuación, se describen cada una de estas tecnologías y cómo se utilizan en el desarrollo backend.
 
                     En primer lugar, NodeJS es una plataforma de JavaScript para el desarrollo de aplicaciones del lado del servidor. Permite utilizar el mismo lenguaje de programación tanto en el frontend como en el backend, lo que simplifica el proceso de desarrollo. Además, NodeJS es muy rápido y escalable, lo que lo hace adecuado para aplicaciones de alto tráfico.
