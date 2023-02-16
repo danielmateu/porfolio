@@ -3,7 +3,7 @@ import React from 'react'
 export const Hi = () => {
     return (
         <>
-            <div className="flex flex-col gap-2 px-10 py-40 min-h-screen" id='dani'>
+            <div className="flex flex-col gap-2 px-10 pt-40 min-h-screen" id='dani'>
                 <h3 className='mb-4 px-20 text-4xl text-gray-800 dark:text-gray-400 font-semibold'>Soy Daniel Mateu</h3>
 
                 <p className='text-gray-800 dark:text-gray-400 px-20 selection:bg-sky-300 selection:text-sky-900'>

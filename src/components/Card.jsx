@@ -31,6 +31,8 @@ export const Card = () => {
                 <MdChevronRight className='opacity-50 cursor-pointer hover:opacity-100 transition-all dark:text-white' size={50} onClick={slideRight} />
             </div>
 
+            
+
         </>
     )
 }

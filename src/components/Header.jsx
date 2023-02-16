@@ -36,6 +36,13 @@ export const Header = () => {
 
                     </li>
                     <li>
+                        <Link to="tecnologias" spy={true} smooth={true} offset={0} duration={500} 
+                        className='cursor-pointer text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 transition-all'>
+                            Tecnologías
+                        </Link>
+                        
+                    </li>
+                    <li>
                         <Link to="contact" spy={true} smooth={true} offset={0} duration={500} 
                         className='cursor-pointer text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 transition-all'>
                             Contact

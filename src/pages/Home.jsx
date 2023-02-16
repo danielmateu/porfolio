@@ -6,6 +6,7 @@ import AboutMe from '../components/AboutMe'
 import { MyWorks } from '../components/MyWorks'
 import { Form } from '../components/Form'
 import { NavLink } from 'react-router-dom'
+import { Tecnologias } from '../components/Tecnologias'
 
 
 
@@ -54,6 +55,8 @@ const Home = () => {
             </div>
 
             <MyWorks/>
+
+            <Tecnologias/>
 
             <Form/>
         </Layout>

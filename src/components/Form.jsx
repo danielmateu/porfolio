@@ -21,12 +21,12 @@ export const Form = () => {
     })
     
     return (
-        <div className="flex flex-col gap-2 px-10 py-40 min-h-screen justify-center items-center" id='contact'>
+        <div className="flex flex-col gap-2 px-10 py-10 pt-40 min-h-screen justify-center items-center" id='contact'>
             <h3 className='mb-4 px-20 text-4xl text-gray-800 dark:text-gray-400 font-semibold'>¿Quieres contactar?</h3>
 
             <form
                 onSubmit={formik.handleSubmit}
-                className='bg-white rounded hover:shadow-lg p-10 m-6 transition-all w-3/6' action="">
+                className='w-full bg-white rounded hover:shadow-lg p-10 m-6 transition-all sm:w-3/6' action="">
                 <div className="mb-4 flex flex-col">
                     <label htmlFor="name">Nombre</label>
                     <input
@@ -86,7 +86,7 @@ export const Form = () => {
                     }
                 </div>
 
-                <input type="submit" value='Ponte en contacto!' className="w-full bg-sky-200 hover:bg-sky-300 transition-colors py-4 rounded my-2" />
+                <input type="submit" value='🚀' className="w-full bg-sky-200 hover:bg-sky-300 transition-colors py-4 rounded my-2" />
                 {/* {mensaje && <Alerta />} */}
             </form>
         </div>
