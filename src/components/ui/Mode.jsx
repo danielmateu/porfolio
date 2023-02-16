@@ -15,15 +15,7 @@ export const Mode = () => {
         }
     }
     const [darkModeEnabled, setDarkModeEnabled] = useState(localStorage.getItem('darkModeEnabled') === 'true');
-    // const [theme, setheme] = useState(null)
-
-    // useEffect(() => {
-    //     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    //         setheme('dark')
-    //     } else {
-    //         setheme('light')
-    //     }
-    // }, [])
+    
 
     useEffect(() => {
         const body = document.querySelector('body');
@@ -33,24 +25,6 @@ export const Mode = () => {
             body.classList.remove('dark');
         }
     }, [darkModeEnabled]);
-
-
-    // useEffect(() => {
-    //     if (theme === 'dark') {
-    //         document.documentElement.classList.add('dark')
-    //     } else {
-    //         document.documentElement.classList.remove('dark')
-    //     }
-    // }, [theme])
-
-    // const handleThemeSwitch = () => {
-    //     if (theme === 'light') {
-    //         setheme('dark')
-    //     }
-    //     else {
-    //         setheme('light')
-    //     }
-    // }
 
     return (
         <>
