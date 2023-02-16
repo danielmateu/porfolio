@@ -16,6 +16,8 @@ module.exports = {
   variant: {
     // textcolor: ["responsive", "hover", "focus", "active"],
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
   darkMode: 'class'
 }
