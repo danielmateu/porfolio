@@ -14,37 +14,44 @@ export const data = [
     {
         id: 1,
         img: freshCoffee,
-        info: 'Lorem Ipsum'
+        info: 'Lorem Ipsum',
+        src: 'https://quiosco-app-next.vercel.app/'
     },
     {
         id: 2,
         img: crypto,
-        info: 'Lorem Ipsum'
+        info: 'Lorem Ipsum',
+        src: 'https://cryptos-psi.vercel.app/'
     },
     {
         id: 3,
         img: calendar,
-        info: 'Lorem Ipsum'
+        info: 'Lorem Ipsum',
+        src: 'https://mern-calendar-dmateu.herokuapp.com/auth/login'
     },
     {
         id: 4,
         img: guitarla,
-        info: 'Lorem Ipsum'
+        info: 'Lorem Ipsum',
+        src: 'https://guitarla-next-black-mu.vercel.app/'
     },
     {
         id: 5,
         img: NukSend,
-        info: 'Lorem Ipsum'
+        info: 'Lorem Ipsum',
+        src: 'https://nuktask-mern.netlify.app/'
     },
     {
         id: 6,
         img: solid_camper,
-        info: 'Lorem Ipsum'
+        info: 'Lorem Ipsum',
+        src: 'https://solidcamper.herokuapp.com/'
     },
     {
         id: 7,
         img: tictactoe,
-        info: 'Lorem Ipsum'
+        info: 'Lorem Ipsum',
+        src: 'https://tic-tac-toe-ecru-two.vercel.app/'
     }
 ];
 

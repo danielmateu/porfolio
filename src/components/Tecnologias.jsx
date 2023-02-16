@@ -7,7 +7,7 @@ export const Tecnologias = () => {
         <div className="flex flex-col gap-2 px-10 pt-40 min-h-screen" id='tecnologias'>
             <h3 className='mb-4 px-20 text-4xl text-gray-800 dark:text-gray-400 font-semibold'>Tecnologias usadas</h3>
 
-            <h4 className='text-3xl'>Frontend</h4>
+            <h4 className='text-3xl dark:text-gray-400'>Frontend</h4>
             <div className='flex gap-6'>
                 <div className="w-4/12 flex gap-4 items-center justify-center">
                     {
@@ -20,7 +20,7 @@ export const Tecnologias = () => {
 
                 <div className="w-8/12">
 
-                    <p>
+                    <p className='dark:text-gray-400 text-justify'>
                         Como front end developer, he estado utilizando una variedad de tecnologías para crear aplicaciones y sitios web interactivos y atractivos. Estas tecnologías incluyen HTML, CSS, JavaScript, SASS, Tailwind, Material UI, ReactJS y NextJS. <br /><br />
 
                         En primer lugar, HTML es el lenguaje de marcado utilizado para crear la estructura y el contenido de una página web. La base de cualquier sitio web, ya que proporciona la estructura y la organización de los elementos de la página, como encabezados, párrafos, imágenes y enlaces.<br /><br />
