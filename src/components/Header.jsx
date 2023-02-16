@@ -26,8 +26,8 @@ export const Header = () => {
     ]
 
     return (
-        <nav className='flex flex-col sm:flex-row justify-between items-center py-6 px-4' >
-            <NavLink to='/home' className="flex justify-between items-center text-2xl  text-gray-400 hover:text-gray-600 relative shadow-sm font-mono transition-all" role="navigation">DM</NavLink>
+        <nav className='flex flex-col sm:flex-row justify-between items-center py-6 px-4 sticky top-0 bg-opacity-80 bg-gray-100 dark:bg-gray-800 dark:bg-opacity-90' >
+            <NavLink to='/home' className={"p-2 cursor-pointer text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 transition-all"} >DM</NavLink>
             {/* Navegador con aboutme my-works contact-me */}
 
             <div className="flex gap-4">

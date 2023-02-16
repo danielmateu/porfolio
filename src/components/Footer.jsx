@@ -42,7 +42,7 @@ export const Footer = () => {
 
 
     return (
-        <footer className='flex  justify-between  py-6 px-4 fixed bottom-0 left-0 right-0' >
+        <footer className='flex flex-col justify-center items-center py-6 px-4 bg-gray-800 bg-transparent' >
             <ul className='flex text-center gap-4'>
                 {
                     socialMedia.map((socialMedia) => (
@@ -55,7 +55,7 @@ export const Footer = () => {
                 }
             </ul>
             {/* //Insertar fecha actual */}
-            <p className='text-gray-400'>{new Date().getFullYear()} - designed by Daniel Mateu ®</p>
+            <p className='text-gray-400'>{new Date().getFullYear()} danidevdevops - designed by Daniel Mateu ®</p>
             
             
         </footer>

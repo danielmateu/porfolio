@@ -34,7 +34,7 @@ export const Mode = () => {
         <>
             {/* Mode options button */}
             <button
-                className="text-gray-400 hover:text-gray-200 transition-all hover:rotate-180"
+                className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-all hover:rotate-180"
                 //Onclick to change the modeOption
                 // onClick={() => setModeOption(!modeOption)}
                 onClick={handleThemeSwitch}
