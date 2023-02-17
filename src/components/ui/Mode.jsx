@@ -2,38 +2,40 @@ import React, { useEffect, useState } from 'react'
 
 export const Mode = () => {
 
-    const toggleDarkMode = () => {
+    // const toggleDarkMode = () => {
 
-        const darkModeEnabled = localStorage.getItem('darkModeEnabled') === 'true';
-        const body = document.querySelector('body');
-        if (darkModeEnabled) {
-            body.classList.remove('dark');
-            localStorage.setItem('darkModeEnabled', 'false');
-        } else {
-            body.classList.add('dark');
-            localStorage.setItem('darkModeEnabled', 'true');
-        }
+    //     const darkModeEnabled = localStorage.getItem('darkModeEnabled') === 'true';
+    //     const body = document.querySelector('body');
+    //     if (darkModeEnabled) {
+    //         body.classList.remove('dark');
+    //         localStorage.setItem('darkModeEnabled', 'false');
+    //     } else {
+    //         body.classList.add('dark');
+    //         localStorage.setItem('darkModeEnabled', 'true');
+    //     }
 
-    }
+    // }
 
     const [darkModeEnabled, setDarkModeEnabled] = useState(localStorage.getItem('darkModeEnabled') === 'true');
 
-    const body = document.querySelector('body');
-    if (darkModeEnabled) {
-        body.classList.remove('dark');
-        localStorage.setItem('darkModeEnabled', 'false');
-    } else {
-        body.classList.add('dark');
-        localStorage.setItem('darkModeEnabled', 'true');
-    }
+    // const body = document.querySelector('body');
+    // if (darkModeEnabled) {
+    //     body.classList.remove('dark');
+    //     localStorage.setItem('darkModeEnabled', 'false');
+    // } else {
+    //     body.classList.add('dark');
+    //     localStorage.setItem('darkModeEnabled', 'true');
+    // }
 
 
     useEffect(() => {
         const body = document.querySelector('body');
         if (darkModeEnabled) {
             body.classList.add('dark');
+            localStorage.setItem('darkModeEnabled', 'false');
         } else {
             body.classList.remove('dark');
+            localStorage.setItem('darkModeEnabled', 'true');
         }
     }, [darkModeEnabled]);
 
