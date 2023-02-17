@@ -20,7 +20,7 @@ export const SmallNav = () => {
 
                 <Link to='hero' spy={true} smooth={true} offset={50} duration={500} className={"absolute left-8 cursor-pointer text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 transition-all "} >DM</Link>
             </div>
-            <ul className={`bg-gray-100 dark:bg-gray-800 w-full ease-in-out transition-all absolute flex flex-col items-center pt-10 pb-2 gap-6  z-[-1]  ${open ? 'top-0' : 'top-[-20vh]'} ${!open && 'hidden'} sm:flex`}>
+            <ul className={`flex flex-col items-center pt-10 pb-2 bg-gray-100 dark:bg-gray-800 w-full transition-all duration-500 absolute ease-in  gap-4  z-[-1]  ${open ? 'top-0' : 'top-[-40vh]'}`}>
                 {
                     Links.map(link => (
                         <li key={link.id}>
