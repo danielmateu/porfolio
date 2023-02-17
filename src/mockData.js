@@ -212,3 +212,32 @@ export const iconDataBack3 = [
 
 ]
 
+export const Links = [
+    {
+        id: 1,
+        to: 'dani',
+        data: 'Hi'
+    },
+    {
+        id: 2,
+        to: 'about_me',
+        data: 'About me'
+    },
+    {
+        id: 3,
+        to: 'my_works',
+        data: 'My projects'
+    },
+    {
+        id: 4,
+        to: 'tecnologias',
+        data: 'Tech I use'
+    },
+    {
+        id: 5,
+        to: 'contact',
+        data: 'Contact'
+    }
+
+]
+
