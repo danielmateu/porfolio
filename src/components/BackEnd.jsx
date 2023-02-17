@@ -18,7 +18,7 @@ export const BackEnd = () => {
 
                         {
                             iconDataBack.map(icon => (
-                                <img key={icon.id} src={icon.src} alt={icon.info} className='hover:rotate-45 transition-all h-10 dark:bg-white rounded ' />
+                                <img key={icon.id} src={icon.src} alt={icon.info} className='hover:-rotate-45 transition-all h-10 dark:bg-white rounded ' />
                             ))
                         }
 
@@ -59,7 +59,7 @@ export const BackEnd = () => {
 
                         {
                             iconDataBack3.map(icon => (
-                                <img key={icon.id} src={icon.src} alt={icon.info} className='hover:rotate-45 transition-all h-10 ' />
+                                <img key={icon.id} src={icon.src} alt={icon.info} className='hover:-rotate-45 transition-all h-10 ' />
                             ))
                         }
 

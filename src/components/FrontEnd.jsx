@@ -41,7 +41,7 @@ export const FrontEnd = () => {
             <li className="flex justify-around py-6">
                 {
                     iconDataFront2.map((icon) => (
-                        <img key={icon.id} src={icon.src} alt={icon.info} className='hover:rotate-45 transition-all h-10' />
+                        <img key={icon.id} src={icon.src} alt={icon.info} className='hover:-rotate-45 transition-all h-10' />
                     ))
                 }
             </li>

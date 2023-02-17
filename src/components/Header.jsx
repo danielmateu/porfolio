@@ -7,7 +7,7 @@ export const Header = () => {
     return (
         <>
             {/* Navegador con aboutme my-works contact-me */}
-            <nav className="flex flex-col gap-2 sm:flex-row justify-between items-center py-4 px-4 sticky top-0 bg-opacity-80 bg-gray-100 dark:bg-gray-800 dark:bg-opacity-80'">
+            <nav className="flex flex-col gap-2 sm:flex-row justify-between items-center py-4 px-4 sticky top-0 bg-opacity-80 bg-gray-100 dark:bg-gray-800 dark:bg-opacity-75'">
                 <Link to='hero' spy={true} smooth={true} offset={50} duration={500} className={"cursor-pointer text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 transition-all"} >DM</Link>
                 <ul className='flex flex-col text-center gap-4 sm:flex-row'>
                     <li>
