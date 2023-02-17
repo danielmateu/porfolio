@@ -1,9 +1,5 @@
-import React, { useState } from 'react'
-import { NavLink } from 'react-router-dom'
 import { Mode } from './ui/Mode'
 import { Link } from 'react-scroll'
-
-
 
 
 export const Header = () => {
@@ -17,17 +13,17 @@ export const Header = () => {
 
                 <ul className='flex gap-4'>
                     <li>
-                        <Link to="dani" spy={true} smooth={true} offset={0} duration={500} 
-                        className='cursor-pointer text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 transition-all' >
+                        <Link to="dani" spy={true} smooth={true} offset={0} duration={500}
+                            className='cursor-pointer text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 transition-all' >
                             Hi there!
                         </Link>
-                        
+
                     </li>
                     <li>
                         <Link to="about_me" spy={true} smooth={true} offset={0} duration={500} className='cursor-pointer text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 transition-all' >
                             About me
                         </Link>
-                        
+
                     </li>
                     <li>
                         <Link to="my_works" spy={true} smooth={true} offset={0} duration={500} className='cursor-pointer text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 transition-all'>
@@ -36,18 +32,18 @@ export const Header = () => {
 
                     </li>
                     <li>
-                        <Link to="tecnologias" spy={true} smooth={true} offset={0} duration={500} 
-                        className='cursor-pointer text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 transition-all'>
+                        <Link to="tecnologias" spy={true} smooth={true} offset={0} duration={500}
+                            className='cursor-pointer text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 transition-all'>
                             Tecnologías
                         </Link>
-                        
+
                     </li>
                     <li>
-                        <Link to="contact" spy={true} smooth={true} offset={0} duration={500} 
-                        className='cursor-pointer text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 transition-all'>
+                        <Link to="contact" spy={true} smooth={true} offset={0} duration={500}
+                            className='cursor-pointer text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 transition-all'>
                             Contact
                         </Link>
-                        
+
                     </li>
                 </ul>
 

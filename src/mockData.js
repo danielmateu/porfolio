@@ -10,6 +10,7 @@ import solid_camper from './assets/projects/solid_camper.png'
 import tictactoe from './assets/projects/tictactoe.png'
 
 
+
 export const data = [
     {
         id: 1,
@@ -210,3 +211,4 @@ export const iconDataBack3 = [
     },
 
 ]
+
