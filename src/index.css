@@ -6,6 +6,24 @@
     color: rgb(95, 131, 189)
 }
 
+#dani {
+    background-image: url(../src/assets/backgrounds/background_01.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#about_me {
+    background-image: url(../src/assets/backgrounds/background_02.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#tecnologias {
+    background-image: url(../src/assets/backgrounds/background_03.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /* .relative {
     height: 100px;

@@ -1,15 +1,15 @@
 import React from 'react'
 import { Link } from 'react-scroll'
-import { Layout } from './Layout/Layout'
+
 
 const Aboutme = () => {
     return (
 
-        <div className="flex flex-col gap-2  px-20 sm:px-52 py-80 sm:py-20 min-h-screen" id='about_me'>
+        <div className="flex flex-col gap-2  px-10 sm:px-52 py-80 sm:py-20 min-h-screen" id='about_me'>
             <h3 className='mb-4 text-4xl text-gray-800 dark:text-gray-400 font-semibold'>Sobre Mi</h3>
 
             <p
-                className='text-gray-300 dark:text-gray-400 text-justify '
+                className='text-gray-800 dark:text-gray-400 text-justify '
             >
                 Tengo una experiencia de dos años como programador. Me especializo en el desarrollo de aplicaciones web y móviles, utilizando tecnologías modernas y de vanguardia.<br /><br />
                 En el front end, utilizo ReactJS, NextJS y Tailwind para crear interfaces de usuario interactivas y dinámicas. Con estas herramientas, puedo construir sitios web de alta calidad y aplicaciones móviles que son altamente receptivas y fáciles de usar.<br /><br />

@@ -19,14 +19,14 @@ export const Form = () => {
             enviarFormulario(values)
         }
     })
-    
+
     return (
         <div className="flex flex-col gap-2 px-10 pt-80 sm:py-28  min-h-screen justify-center items-center" id='contact'>
-            <h3 className='mb-4 px-20 text-4xl text-gray-800 text-center dark:text-gray-400 font-semibold'>¿Quieres contactar?</h3>
+            <h3 className='mb-4 px-20 text-4xl text-gray-800 dark:text-gray-400 font-semibold'>¿Quieres contactar?</h3>
 
             <form
                 onSubmit={formik.handleSubmit}
-                className='w-full bg-white dark:bg-gray-600 rounded hover:shadow-lg p-10 m-6 transition-all md:w-3/6' action="">
+                className='w-full bg-white dark:bg-gray-900 rounded hover:shadow-lg p-10 m-6 transition-all md:w-3/6' action="">
                 <div className="mb-4 flex flex-col">
                     <label htmlFor="name" className='dark:text-gray-300'>Nombre</label>
                     <input
@@ -86,7 +86,7 @@ export const Form = () => {
                     }
                 </div>
 
-                <input type="submit" value='🚀' className="w-full bg-sky-200 hover:bg-sky-300 transition-colors py-4 rounded my-2" />
+                <input type="submit" value='🚀' className="w-full bg-sky-500 hover:bg-sky-600 dark:bg-gray-800 dark:hover:bg-gray-700 transition-colors py-4 rounded my-2" />
                 {/* {mensaje && <Alerta />} */}
             </form>
         </div>
