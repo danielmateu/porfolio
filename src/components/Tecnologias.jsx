@@ -6,7 +6,7 @@ import { FrontEnd } from './FrontEnd'
 
 export const Tecnologias = () => {
     return (
-        <div className='flex flex-col gap-2  px-10 sm:px-20 py-56 sm:py-18  min-h-screen' id='tecnologias'>
+        <div className='flex flex-col gap-2  px-10 sm:px-20 pt-80 sm:pt-20  min-h-screen' id='tecnologias'>
             <FrontEnd/>
             <BackEnd/>
 
