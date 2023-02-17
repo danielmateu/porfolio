@@ -21,19 +21,19 @@ export const Form = () => {
     })
     
     return (
-        <div className="flex flex-col gap-2 px-10 py-10 pt-40 min-h-screen justify-center items-center" id='contact'>
+        <div className="flex flex-col gap-2 px-10 py-10 pt-36 min-h-screen justify-center items-center" id='contact'>
             <h3 className='mb-4 px-20 text-4xl text-gray-800 dark:text-gray-400 font-semibold'>¿Quieres contactar?</h3>
 
             <form
                 onSubmit={formik.handleSubmit}
-                className='w-full bg-white rounded hover:shadow-lg p-10 m-6 transition-all sm:w-3/6' action="">
+                className='w-full bg-white dark:bg-gray-600 rounded hover:shadow-lg p-10 m-6 transition-all sm:w-3/6' action="">
                 <div className="mb-4 flex flex-col">
-                    <label htmlFor="name">Nombre</label>
+                    <label htmlFor="name" className='dark:text-gray-300'>Nombre</label>
                     <input
                         type="text"
                         placeholder="Introduce tu nombre"
                         id='name'
-                        className='p-4 bg-slate-100 rounded appearance-none focus:outline-none'
+                        className='p-4 bg-slate-100 dark:bg-slate-300 rounded appearance-none focus:outline-none'
                         value={formik.values.name}
                         onChange={formik.handleChange}
                         onBlur={formik.handleBlur}
@@ -47,12 +47,12 @@ export const Form = () => {
                     }
                 </div>
                 <div className="mb-4 flex flex-col">
-                    <label htmlFor="email">Email</label>
+                    <label htmlFor="email" className='dark:text-gray-300'>Email</label>
                     <input
                         type="email"
                         placeholder="Introduce tu email"
                         id='email'
-                        className='p-4 bg-slate-100 rounded appearance-none focus:outline-none'
+                        className='p-4 bg-slate-100 dark:bg-slate-300 rounded appearance-none focus:outline-none'
                         value={formik.values.email}
                         onChange={formik.handleChange}
                         onBlur={formik.handleBlur}
@@ -67,12 +67,12 @@ export const Form = () => {
                 </div>
 
                 <div className="mb-4 flex flex-col">
-                    <label htmlFor="faqs">Qué quieres saber?</label>
+                    <label htmlFor="faqs" className='dark:text-gray-300'>Qué quieres saber?</label>
                     <input
                         type="text"
                         placeholder="Dime lo que estás buscando... 😉"
                         id='faqs'
-                        className='p-4 bg-slate-100 rounded appearance-none focus:outline-none'
+                        className='p-4 bg-slate-100 dark:bg-slate-300 rounded appearance-none focus:outline-none'
                         value={formik.values.faqs}
                         onChange={formik.handleChange}
                         onBlur={formik.handleBlur}

@@ -74,13 +74,88 @@ export const iconDataFront = [
         src: 'https://img.icons8.com/color/48/000000/javascript--v1.png',
         info: 'JavaScript'
     },
+    
+]
+
+export const iconDataFront2 = [
     {
-        id: 4,
+        id: 1,
         icon: 'fab fa-react',
         src: 'https://img.icons8.com/color/48/000000/react-native.png',
         info: 'React'
     },
+    {
+        id: 2,
+        icon: 'fab fa-sass',
+        src: 'https://img.icons8.com/color/48/000000/sass.png',
+        info: 'Sass'
+    },
+    {
+        id: 3,
+        icon: 'fab fa-bootstrap',
+        src: 'https://img.icons8.com/color/48/000000/bootstrap.png',
+        info: 'Bootstrap'
+    }
+]
+export const iconDataFront3 = [ 
+    {
+        id: 4,
+        icon: 'fab fa-git-alt',
+        src: 'https://img.icons8.com/color/48/000000/git.png',
+        info: 'Git'
+    },
+    {
+        id: 5,
+        icon: 'fab fa-github',
+        src: 'https://img.icons8.com/color/48/000000/github--v1.png',
+        info: 'Github'
+    },
+    {
+        id: 6,
+        icon: 'fab fa-npm',
+        src: 'https://img.icons8.com/color/48/000000/npm.png',
+        info: 'npm'
+    },
+]
 
+export const iconDataDesign = [
+    {
+        id: 8,
+        icon: 'fab fa-figma',
+        src: 'https://img.icons8.com/color/48/000000/figma--v1.png',
+        info: 'figma'
+    },
+    {
+        id: 9,
+        icon: 'fab fa-adobe',
+        src: 'https://img.icons8.com/color/48/000000/adobe-photoshop--v1.png',
+        info: 'photoshop'
+    },
+    {
+        id: 10,
+        icon: 'fab fa-adobe',
+        src: 'https://img.icons8.com/color/48/000000/adobe-illustrator--v1.png',
+        info: 'illustrator'
+    },
+    {
+        id: 11,
+        icon: 'fab fa-adobe',
+        src: 'https://img.icons8.com/color/48/000000/adobe-xd--v1.png',
+        info: 'xd'
+    },
+    {
+        id: 12,
+        icon: 'fab fa-adobe',
+        src: 'https://img.icons8.com/color/48/000000/adobe-premiere-pro--v1.png',
+        info: 'premiere'
+    },
+    {
+        id: 13,
+        icon: 'fab fa-adobe',
+        src: 'https://img.icons8.com/color/48/000000/adobe-after-effects--v1.png',
+        info: 'after effects'
+    },
+    
 ]
 
 export const iconDataBack = [
@@ -99,7 +174,9 @@ export const iconDataBack = [
         id: 3,
         src: 'https://img.icons8.com/color/48/000000/mongodb.png',
         info: 'mongoDB'
-    },
+    }
+]
+export const iconDataBack2 = [
     {
         id: 4,
 
@@ -114,10 +191,11 @@ export const iconDataBack = [
     },
     {
         id: 6,
-
         src: 'https://img.icons8.com/color/48/000000/firebase.png',
         info: 'firebase'
-    },
+    }
+]
+export const iconDataBack3 = [
     {
         id: 7,
 

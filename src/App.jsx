@@ -1,8 +1,9 @@
-import { Layout } from './components/Layout/Layout'
-import PropTypes from 'prop-types'
+
 
 import './index.css'
-import { AppRouter } from './router/AppRouter'
+
+import Home from './components/Home'
+
 
 
 function App({
@@ -14,7 +15,7 @@ function App({
   return (
 
     <>
-    <AppRouter/>
+    <Home/>
     </>
     
     
