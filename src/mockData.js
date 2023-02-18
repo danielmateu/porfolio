@@ -1,13 +1,13 @@
 
 
 
-import freshCoffee from './assets/projects/freshCoffee.png'
-import crypto from './assets/projects/crypto-app.png'
-import calendar from './assets/projects/Calendar-Mern.png'
-import guitarla from './assets/projects/guitarla.png'
-import NukSend from './assets/projects/NukSend.png'
-import solid_camper from './assets/projects/solid_camper.png'
-import tictactoe from './assets/projects/tictactoe.png'
+import freshCoffee from './assets/projects/freshCoffee.webp'
+import crypto from './assets/projects/crypto-app.webp'
+import calendar from './assets/projects/Calendar-Mern.webp'
+import guitarla from './assets/projects/guitarla.webp'
+import NukSend from './assets/projects/NukSend.webp'
+import solid_camper from './assets/projects/solid_camper.webp'
+import tictactoe from './assets/projects/tictactoe.webp'
 
 
 

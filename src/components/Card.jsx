@@ -1,7 +1,7 @@
 import React from 'react'
 import { data } from '../mockData'
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md'
-import { Link } from 'react-router-dom'
+
 
 
 
