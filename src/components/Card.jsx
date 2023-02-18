@@ -33,6 +33,8 @@ export const Card = () => {
                             key={item.id}
                             src={item.img}
                             alt={item.info}
+                            height={500}
+                            width={500}
                             onClick={() => handleClick(item.src)}
                             className='h-[400px] p-2 cursor-pointer hover:scale-110 ease-in-out duration-300 rounded-3xl'
                         />

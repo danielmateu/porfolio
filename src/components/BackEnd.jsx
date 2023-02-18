@@ -18,7 +18,7 @@ export const BackEnd = () => {
 
                         {
                             iconDataBack.map(icon => (
-                                <img key={icon.id} src={icon.src} alt={icon.info} className='hover:-rotate-12 transition-all h-10 dark:bg-white rounded ' />
+                                <img key={icon.id} src={icon.src} alt={icon.info} className='hover:-rotate-12 transition-all h-10 dark:bg-white rounded ' height={40} width={40} />
                             ))
                         }
 
@@ -39,7 +39,7 @@ export const BackEnd = () => {
 
                         {
                             iconDataBack2.map(icon => (
-                                <img key={icon.id} src={icon.src} alt={icon.info} className='hover:rotate-12 transition-all h-10' />
+                                <img key={icon.id} src={icon.src} alt={icon.info} height={40} width={40} className='hover:rotate-12 transition-all h-10' />
                             ))
                         }
 
@@ -59,7 +59,7 @@ export const BackEnd = () => {
 
                         {
                             iconDataBack3.map(icon => (
-                                <img key={icon.id} src={icon.src} alt={icon.info} className='hover:-rotate-12 transition-all h-10 ' />
+                                <img key={icon.id} src={icon.src} alt={icon.info} height={40} width={40} className='hover:-rotate-12 transition-all h-10 ' />
                             ))
                         }
 

@@ -22,7 +22,7 @@ export const FrontEnd = () => {
             <li className="flex justify-around py-6">
                 {
                     iconDataFront.map((icon) => (
-                        <img key={icon.id} src={icon.src} alt={icon.info} className='hover:rotate-12 transition-all h-10' />
+                        <img key={icon.id} src={icon.src} alt={icon.info} height={40} width={40} className='hover:rotate-12 transition-all h-10' />
                     ))
                 }
             </li>
@@ -41,7 +41,7 @@ export const FrontEnd = () => {
             <li className="flex justify-around py-6">
                 {
                     iconDataFront2.map((icon) => (
-                        <img key={icon.id} src={icon.src} alt={icon.info} className='hover:-rotate-12 transition-all h-10' />
+                        <img key={icon.id} src={icon.src} alt={icon.info} height={40} width={40} className='hover:-rotate-12 transition-all h-10' />
                     ))
                 }
             </li>
@@ -57,7 +57,7 @@ export const FrontEnd = () => {
             <li className="flex justify-around py-6">
                 {
                     iconDataFront3.map((icon) => (
-                        <img key={icon.id} src={icon.src} alt={icon.info} className='hover:rotate-12 transition-all h-10' />
+                        <img key={icon.id} src={icon.src} alt={icon.info} height={40} width={40} className='hover:rotate-12 transition-all h-10' />
                     ))
                 }
             </li>
