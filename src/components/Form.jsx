@@ -1,7 +1,15 @@
 import { useFormik } from 'formik'
 import * as Yup from 'yup'
+import emailjs from 'emailjs-com'
+import { useState } from 'react'
+import { Alerta } from './ui/Alerta'
 
 export const Form = () => {
+
+    const [mensaje, setMensaje] = useState('')
+    // const emailJsKey = process.env.EMAIL_JS_KEY;
+    const emailJsKey = 'rTKVN0DZ7PkXs051A';
+    emailjs.init(emailJsKey);
 
     const formik = useFormik({
         initialValues: {
@@ -15,11 +23,26 @@ export const Form = () => {
             message: Yup.string().required('Debes introducir el mensaje')
         }),
         onSubmit: (values) => {
-            console.log(values)
+            // console.log(values)
             enviarFormulario(values)
         }
     })
-    
+
+    const enviarFormulario = (e) => {
+        
+        emailjs.send('service_0856u8i', 'template_v38lo8r', e.target)
+            .then((result) => {
+                console.log(result.text);
+                setMensaje(mensaje)
+
+                setTimeout(() => {
+                    setMensaje('')
+                }, 3000);
+            }, (error) => {
+                console.log(error.text);
+            });
+    }
+
     return (
         <div className="flex flex-col gap-2 px-10 pt-80 sm:py-28  min-h-screen justify-center items-center" id='contact'>
             <h3 className='mb-4 px-20 text-4xl text-gray-800 text-center dark:text-gray-400 font-semibold'>¿Quieres contactar?</h3>
@@ -87,7 +110,7 @@ export const Form = () => {
                 </div>
 
                 <input type="submit" value='🚀' className="w-full bg-sky-200 hover:bg-sky-300 transition-colors py-4 rounded my-2" />
-                {/* {mensaje && <Alerta />} */}
+                {mensaje && <Alerta />}
             </form>
         </div>
     )
