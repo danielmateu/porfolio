@@ -10,6 +10,13 @@ module.exports = {
         'music':'url("./assets/nomusic.jpg")',
         'stairs':'url("./assets/stairs.jpg")',
         'develop':'url("./assets/develop.jpg")',
+      },
+      backgroundSize: {
+        'auto': 'auto',
+        'cover': 'cover',
+        'contain': 'contain',
+        '50%': '50%',
+        '16': '4rem',
       }
     },
   },
