@@ -10,10 +10,10 @@ export const Mode = () => {
         const body = document.querySelector('body');
         if (darkModeEnabled) {
             body.classList.add('dark');
-            localStorage.setItem('darkModeEnabled', 'false');
+            localStorage.setItem('darkModeEnabled', 'true');
         } else {
             body.classList.remove('dark');
-            localStorage.setItem('darkModeEnabled', 'true');
+            localStorage.setItem('darkModeEnabled', 'false');
         }
     }, [darkModeEnabled]);
 
