@@ -67,20 +67,20 @@ export const Form = () => {
                 </div>
 
                 <div className="mb-4 flex flex-col">
-                    <label htmlFor="faqs" className='dark:text-gray-300'>Qué quieres saber?</label>
-                    <input
+                    <label htmlFor="message" className='dark:text-gray-300'>Qué quieres saber?</label>
+                    <textarea
                         type="text"
                         placeholder="Dime lo que estás buscando... 😉"
-                        id='faqs'
+                        id='message'
                         className='p-4 bg-slate-100 dark:bg-slate-300 rounded appearance-none focus:outline-none'
-                        value={formik.values.faqs}
+                        value={formik.values.message}
                         onChange={formik.handleChange}
                         onBlur={formik.handleBlur}
                     />
                     {
-                        formik.touched.faqs && formik.errors.faqs ? (
+                        formik.touched.message && formik.errors.message ? (
                             <div className="my-2 text-red-400 border-l-4 border-red-400 bg-red-200 text-center rounded hover:bg-red-400 hover:text-white transition-colors py-2">
-                                <p>{formik.errors.faqs}</p>
+                                <p>{formik.errors.message}</p>
                             </div>
                         ) : null
                     }
