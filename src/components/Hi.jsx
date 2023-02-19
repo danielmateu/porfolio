@@ -4,7 +4,7 @@ export const Hi = () => {
     return (
 
 
-        <div className="flex flex-col gap-2 px-10 sm:px-52 py-80 sm:py-20 min-h-screen" id='dani'>
+        <div className="flex flex-col gap-2 px-10 sm:px-20 md:px40 lg:px-56 py-80 sm:py-20 min-h-screen" id='dani'>
             <h3 className='mb-4  text-4xl text-gray-800 dark:text-gray-400 font-semibold'>Soy Daniel Mateu</h3>
 
             <p className='text-gray-600 dark:text-gray-400  text-justify '>
