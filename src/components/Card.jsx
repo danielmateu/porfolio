@@ -36,7 +36,7 @@ export const Card = () => {
                             height={500}
                             width={500}
                             onClick={() => handleClick(item.src)}
-                            className='h-[400px] p-2 cursor-pointer hover:scale-110 ease-in-out duration-300 rounded-3xl'
+                            className='h-[400px] p-2 cursor-pointer hover:scale-105 ease-in-out duration-300 rounded-3xl'
                         />
 
                     ))
