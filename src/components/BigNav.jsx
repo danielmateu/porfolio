@@ -16,7 +16,7 @@ export const BigNav = () => {
                 {
                     Links.map(link => (
                         <li key={link.id}>
-                            <Link to={link.to} spy={true} smooth={true} offset={0} duration={500}
+                            <Link to={link.to} spy={true} smooth={true} offset={0} duration={500} alt={link.data}
                                 className='cursor-pointer dark:text-gray-400  hover:text-gray-600 dark:hover:text-gray-200 transition-all' >
                                 {link.data}
                             </Link>

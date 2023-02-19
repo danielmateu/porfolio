@@ -19,6 +19,7 @@ export const Card = () => {
     //al darle click, llevar al cliente a la pagina {item.src}
     const handleClick = (url) => {
         // console.log(e.target.src)}}
+        
         window.open(url, '_blank')
 
     }

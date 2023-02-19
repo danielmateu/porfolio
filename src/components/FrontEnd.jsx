@@ -1,7 +1,42 @@
 import React from 'react'
-import { iconDataBack, iconDataBack2, iconDataBack3, iconDataFront, iconDataFront2, iconDataFront3 } from '../mockData'
+import { iconDataFront, iconDataFront2, iconDataFront3 } from '../mockData'
+// import { Html5, CssThree, Javascript, ReactJs} from '@icons-pack/react-simple-icons';
 
 export const FrontEnd = () => {
+
+    // const iconDataFront = [
+    //     {
+    //         id: 1,
+    //         name: 'LinkdIn',
+    //         img: <Html5 title='My title' size={24} />
+
+    //     },
+    //     {
+    //         id: 2,
+    //         name: 'Github',
+    //         // url: 'https://github.com/danielmateu',
+    //         img: <CssThree title='My title' size={24} />
+    //     },
+    //     {
+    //         id: 3,
+    //         name: 'Youtube',
+    //         // url: 'https://www.youtube.com/channel/UCuMqJQML3SF0qz2sjKc2T8g',
+    //         img: <Javascript title='My title' size={24} />
+    //     },
+    //     {
+    //         id: 4,
+    //         name: 'Instragram',
+    //         url: 'https://www.instagram.com/danimateu86/',
+    //         // img: <Instagram title='My title' size={24} />
+    //     },
+    //     {
+    //         id: 5,
+    //         name: 'Soundcloud',
+    //         url: 'https://soundcloud.com/danielmateupardo',
+    //         // img: <Soundcloud title='My title' size={24} />
+    //     }
+    // ]
+
     return (
         <>
             <h3 className='mb-4 text-4xl text-gray-800 dark:text-gray-800 font-semibold'>Tecnologias usadas</h3>

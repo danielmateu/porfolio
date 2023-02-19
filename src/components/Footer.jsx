@@ -42,7 +42,11 @@ export const Footer = () => {
             <ul className='flex text-center gap-4'>
                 {
                     socialMedia.map((socialMedia) => (
-                        <li key={socialMedia.id} href="#" className="p-2 cursor-pointer text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 transition-all w-10">
+                        <li
+                            key={socialMedia.id}
+                            href="#"
+                            className="p-2 cursor-pointer text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 transition-all w-10"
+                            alt={socialMedia.name}>
                             {/* <a href={socialMedia.url} target='_blank' rel='author' >{socialMedia.name}{socialMedia.img}</a> */}
                             <a href={socialMedia.url} target='_blank'>{socialMedia.img}</a>
 

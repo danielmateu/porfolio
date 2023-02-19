@@ -24,7 +24,7 @@ export const SmallNav = () => {
                 {
                     Links.map(link => (
                         <li key={link.id}>
-                            <Link to={link.to} spy={true} smooth={true} offset={0} duration={500}
+                            <Link to={link.to} spy={true} smooth={true} offset={0} duration={500} alt={link.data}
                                 className='cursor-pointer text-gray-800 hover:text-gray-600 dark:hover:text-gray-200 transition-all dark:text-gray-400' >
                                 {link.data}
                             </Link>
