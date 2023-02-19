@@ -219,27 +219,27 @@ export const Links = [
     {
         id: 1,
         to: 'dani',
-        data: 'Hi'
+        data: 'Hey!'
     },
     {
         id: 2,
         to: 'about_me',
-        data: 'About me'
+        data: 'Sobre mi'
     },
     {
         id: 3,
         to: 'my_works',
-        data: 'My projects'
+        data: 'Mis proyectos'
     },
     {
         id: 4,
         to: 'tecnologias',
-        data: 'Tech I use'
+        data: 'Tecnologias'
     },
     {
         id: 5,
         to: 'contact',
-        data: 'Contact'
+        data: 'Contacta'
     }
 
 ]

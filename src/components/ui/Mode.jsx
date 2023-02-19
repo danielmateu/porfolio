@@ -19,7 +19,7 @@ export const Mode = () => {
 
     return (
         <>
-            <Switch
+            {/* <Switch
                 checked={enabled}
                 onChange={setEnabled}
                 onClick={() => setDarkModeEnabled(!darkModeEnabled)}
@@ -33,8 +33,8 @@ export const Mode = () => {
                         enabled ? 'translate-x-6' : 'translate-x-1'
                     } inline-block w-4 h-4 transform bg-white rounded-full`}
                 />
-            </Switch>
-            {/* <button
+            </Switch> */}
+            <button
                 className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-all"
                 onClick={() => setDarkModeEnabled(!darkModeEnabled)}
             >
@@ -47,7 +47,7 @@ export const Mode = () => {
                         
                     )
                 }
-            </button> */}
+            </button>
         </>
     )
 }
