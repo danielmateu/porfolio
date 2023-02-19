@@ -12,7 +12,7 @@ export const SmallNav = () => {
             <div className='flex justify-center items-center py-4'>
                 <div
                     onClick={() => setOpen(!open)}
-                    className="text-gray-400 text-3xl absolute right-8 pt-2 transition-all sm:hidden"
+                    className="text-gray-800 hover:text-gray-400 hover:rotate-90  text-2xl hover:text-xs absolute right-8 pt-2 transition-all sm:hidden"
                 >
                     <ion-icon name={open ? 'close' : 'menu'}></ion-icon>
                     {/* Down */}
