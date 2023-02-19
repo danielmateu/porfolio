@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-scroll'
-import { Layout } from './Layout/Layout'
+
 
 const Aboutme = () => {
     return (

@@ -28,13 +28,20 @@ export const Form = () => {
         }
     })
 
-    const enviarFormulario = (e) => {
-        
-        emailjs.send('service_0856u8i', 'template_v38lo8r', e.target)
-            .then((result) => {
-                console.log(result.text);
-                setMensaje(mensaje)
+    const enviarFormulario = (values) => {
 
+        const templateParams = {
+            name: values.name,
+            email: values.email,
+            message: values.message
+        };
+
+        emailjs.send('service_0856u8i', 'template_v38lo8r', templateParams, 'rTKVN0DZ7PkXs051A')
+            .then((result) => {
+                console.log(result);
+                setMensaje('Mensaje enviado correctamente');
+                //Clean Form
+                formik.resetForm();
                 setTimeout(() => {
                     setMensaje('')
                 }, 3000);
