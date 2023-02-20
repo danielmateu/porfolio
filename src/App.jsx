@@ -10,7 +10,7 @@ function App({ }) {
       <Helmet>
         <meta property="og:title" content="Daniel Mateu Porfolio" />
         <meta property="og:description" content="Porfolio de Daniel Mateu" />
-        <meta property="og:image" content="./src/assets/previsualizacion.webp" />
+        <meta property="og:image" content="./src/assets/previsualizacion.png" />
       </Helmet>
       <Home />
     </>
