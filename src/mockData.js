@@ -5,10 +5,10 @@ import freshCoffee from './assets/projects/freshCoffee.webp'
 import crypto from './assets/projects/crypto-app.webp'
 import calendar from './assets/projects/Calendar-Mern.webp'
 import guitarla from './assets/projects/guitarla.webp'
-import NukSend from './assets/projects/NukSend.webp'
+// import NukSend from './assets/projects/NukSend.webp'
 import solid_camper from './assets/projects/solid_camper.webp'
 import tictactoe from './assets/projects/tictactoe.webp'
-
+import control_gastos from './assets/projects/control_gastos.webp'
 
 
 export const data = [
@@ -48,12 +48,12 @@ export const data = [
         info: 'Full Mern Calendar',
         src: 'https://mern-calendar-dmateu.herokuapp.com/auth/login'
     },
-    // {
-    //     id: 7,
-    //     img: NukSend,
-    //     info: 'Lorem Ipsum',
-    //     src: 'https://nuktask-mern.netlify.app/'
-    // },
+    {
+        id: 7,
+        img: control_gastos,
+        info: 'Planificador de gastos',
+        src: 'https://control-de-gastos-nine.vercel.app/'
+    },
     
     
 ];
