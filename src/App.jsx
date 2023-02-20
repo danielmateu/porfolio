@@ -13,7 +13,16 @@ function App({ }) {
       { name: 'description', content: 'Descripción de tu sitio web' },
       { property: 'og:title', content: 'Título para redes sociales' },
       { property: 'og:description', content: 'Descripción para redes sociales' },
-      { property: 'og:image', content: './src/assets/previsualizacion.png' }
+      { property: 'og:image', content: './src/assets/previsualizacion.png' },
+      { property: 'og:url', content: 'https://danielmateu.com' },
+      { property: 'og:site_name', content: 'Daniel Mateu Portfolio' },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:locale', content: 'es_ES' },
+      { property: 'og:locale:alternate', content: 'en_US' },
+      //Author
+      { name: 'author', content: 'Daniel Mateu' },
+      //Published date
+      { name: 'article:published_time', content: '2022-05-01' },
     ];
 
     metaTags.forEach(meta => {
@@ -22,6 +31,13 @@ function App({ }) {
       if (element) {
         element.setAttribute('content', meta.content);
       }
+      else {
+        const newElement = document.createElement('meta');
+        newElement.setAttribute(meta.property ? 'property' : 'name', meta.property || meta.name);
+        newElement.setAttribute('content', meta.content);
+        document.head.appendChild(newElement);
+      }
+
 
     });
     // const metaTitle = document.createElement('meta')
