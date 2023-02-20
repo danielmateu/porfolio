@@ -47,6 +47,8 @@ export const BackEnd = () => {
                     <p className='text-gray-600 dark:text-gray-400 text-justify'>
                         <strong>Firebase</strong> es una plataforma de Google que proporciona una amplia gama de servicios backend para aplicaciones web y móviles. Entre estos servicios se incluyen la autenticación de usuarios, el almacenamiento de archivos, la base de datos en tiempo real y el hosting. <strong>Firebase</strong> se integra muy bien con <strong>NodeJS</strong> y permite el acceso a los servicios mediante una API RESTful.<br /><br />
 
+                        Y en referencia a los Tests, <strong>Jest</strong> es un marco de pruebas (testing framework) desarrollado por Facebook que se utiliza para probar aplicaciones escritas en JavaScript. Es fácil de configurar y se integra perfectamente con proyectos que utilizan herramientas como React, Babel y Webpack. <strong>Jest</strong> tiene una sintaxis clara y simple y ofrece características avanzadas como mocks, snapshots, cobertura de código y más. También es conocido por su velocidad y eficiencia en la ejecución de pruebas, lo que lo convierte en una herramienta popular para desarrolladores de todo el mundo.
+
                         En resumen, estas tecnologías son fundamentales para cualquier backend developer que busque crear servicios web escalables y seguros. Desde la plataforma de <strong>NodeJS</strong> hasta las bases de datos <strong>MongoDB</strong> y <strong>MySQL</strong>, estas herramientas permiten la creación de servicios web rápidos y eficientes. El conocimiento y dominio de estas tecnologías es esencial para el éxito en el mundo del desarrollo backend.
                     </p>
 

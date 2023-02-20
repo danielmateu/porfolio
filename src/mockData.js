@@ -9,7 +9,7 @@ import guitarla from './assets/projects/guitarla.webp'
 import solid_camper from './assets/projects/solid_camper.webp'
 import tictactoe from './assets/projects/tictactoe.webp'
 import control_gastos from './assets/projects/control_gastos.webp'
-
+import jest from './assets/projects/jest.svg'
 
 export const data = [
     {
@@ -201,16 +201,21 @@ export const iconDataBack2 = [
 export const iconDataBack3 = [
     {
         id: 7,
-
         src: 'https://img.icons8.com/color/48/000000/heroku.png',
         info: 'heroku'
     },
     {
         id: 8,
-
         src: 'https://img.icons8.com/color/48/000000/mongoose.png',
         info: 'mongoose'
     },
+    //JEST Icon
+    {
+        id: 9,
+        src: jest,
+        info: 'jest'
+    },
+
 
 ]
 
