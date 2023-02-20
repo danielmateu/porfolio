@@ -18,7 +18,10 @@ export const Mode = () => {
     }, [darkModeEnabled]);
 
     return (
-        <>
+        <div className='flex gap-2'>  
+            <span
+            // onClick={() => setDarkModeEnabled(!darkModeEnabled)}
+            >☀️</span> 
             <Switch
                 checked={enabled}
                 onChange={setEnabled}
@@ -48,6 +51,9 @@ export const Mode = () => {
                     )
                 }
             </button> */}
-        </>
+            <span
+            // onClick={() => setDarkModeEnabled(!darkModeEnabled)}
+            >🌒</span> 
+        </div>
     )
 }
