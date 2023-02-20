@@ -8,8 +8,8 @@ function App({ }) {
   return (
     <>
       <Helmet>
-        <meta property="og:title" content="Daniel Mateu Porfolio" />
-        <meta property="og:description" content="Porfolio de Daniel Mateu" />
+        <meta property="og:title" content="Daniel Mateu Portfolio" />
+        <meta property="og:description" content="Portfolio de Daniel Mateu" />
         <meta property="og:image" content="./src/assets/previsualizacion.png" />
       </Helmet>
       <Home />
