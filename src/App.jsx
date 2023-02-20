@@ -10,17 +10,17 @@ function App({ }) {
   //useEffect to create the metaTags
   useEffect(() => {
     const metaTags = [
-      { name: 'description', content: 'Descripción de tu sitio web' },
-      { property: 'og:title', content: 'Título para redes sociales' },
-      { property: 'og:description', content: 'Descripción para redes sociales' },
-      { property: 'og:image', content: './src/assets/previsualizacion.png' },
-      { property: 'og:url', content: 'https://danielmateu.com' },
+      { name: 'description', content: 'Este es el portfolio de Daniel Mateu Pardo' },
+      { property: 'og:title', content: 'Portfolio de Daniel Mateu Pardo' },
+      { property: 'og:description', content: 'Este es el portfolio de Daniel Mateu Pardo' },
+      { property: 'og:image', content: 'assets/previsualizacion.png' },
+      // { property: 'og:url', content: 'https://danielmateu.com' },
       { property: 'og:site_name', content: 'Daniel Mateu Portfolio' },
       { property: 'og:type', content: 'website' },
       { property: 'og:locale', content: 'es_ES' },
       { property: 'og:locale:alternate', content: 'en_US' },
       //Author
-      { name: 'author', content: 'Daniel Mateu' },
+      { name: 'author', content: 'Daniel Mateu Pardo' },
       //Published date
       { name: 'article:published_time', content: '2022-05-01' },
     ];
