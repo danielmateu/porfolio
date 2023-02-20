@@ -52,7 +52,7 @@ export const Form = () => {
 
     return (
         <div className="flex flex-col gap-2 px-10 pt-80 sm:py-28  min-h-screen bg-fixed justify-center items-center " id='contact'>
-            <h3 className='mb-4 px-20 text-4xl text-gray-800 text-center dark:text-gray-400 font-semibold'>¿Quieres contactar?</h3>
+            <h3 className='mb-4 px-20 text-4xl text-gray-800 text-center dark:text-gray-100 font-semibold'>¿Quieres contactar?</h3>
 
             <form
                 onSubmit={formik.handleSubmit}
