@@ -21,7 +21,7 @@ export const data = [
     {
         id: 2,
         img: crypto,
-        info: 'Lorem Ipsum',
+        info: 'Aplicación para convertir el valor de las monedas más usadas a las Crypto más demandadas',
         src: 'https://cryptos-psi.vercel.app/'
     },
     {
@@ -33,28 +33,27 @@ export const data = [
     {
         id: 4,
         img: tictactoe,
-        info: 'Lorem Ipsum',
+        info: 'Clásico juego del 3 en raya',
         src: 'https://tic-tac-toe-ecru-two.vercel.app/'
     },
     {
         id: 5,
         img: freshCoffee,
-        info: 'Lorem Ipsum',
+        info: 'Quiosco enfocado a la típica cafetería',
         src: 'https://nukiosco-app.vercel.app/'
     },
     {
         id: 6,
         img: calendar,
-        info: 'Lorem Ipsum',
+        info: 'Full Mern Calendar',
         src: 'https://mern-calendar-dmateu.herokuapp.com/auth/login'
     },
-    
-    {
-        id: 7,
-        img: NukSend,
-        info: 'Lorem Ipsum',
-        src: 'https://nuktask-mern.netlify.app/'
-    },
+    // {
+    //     id: 7,
+    //     img: NukSend,
+    //     info: 'Lorem Ipsum',
+    //     src: 'https://nuktask-mern.netlify.app/'
+    // },
     
     
 ];
