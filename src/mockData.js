@@ -40,7 +40,7 @@ export const data = [
         id: 5,
         img: freshCoffee,
         info: 'Lorem Ipsum',
-        src: 'https://quiosco-app-next.vercel.app/'
+        src: 'https://nukiosco-app.vercel.app/'
     },
     {
         id: 6,
