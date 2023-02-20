@@ -51,13 +51,13 @@ export const Form = () => {
     }
 
     return (
-        <div className="flex flex-col gap-2 px-10 pt-80 sm:py-28  min-h-screen justify-center items-center" id='contact'>
+        <div className="flex flex-col gap-2 px-10 pt-80 sm:py-28  min-h-screen bg-fixed justify-center items-center " id='contact'>
             <h3 className='mb-4 px-20 text-4xl text-gray-800 text-center dark:text-gray-400 font-semibold'>¿Quieres contactar?</h3>
 
             <form
                 onSubmit={formik.handleSubmit}
-                className='w-full bg-white dark:bg-gray-600 rounded hover:shadow-lg p-10 m-6 transition-all md:w-3/6' action="">
-                <div className="mb-4 flex flex-col">
+                className='w-full bg-white dark:bg-gray-600 rounded hover:shadow-lg p-10 m-6 transition-all md:w-3/6 ' action="">
+                <div className="mb-4 flex flex-col ">
                     <label htmlFor="name" className='dark:text-gray-300'>Nombre</label>
                     <input
                         type="text"
