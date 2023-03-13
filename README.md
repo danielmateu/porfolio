@@ -1,4 +1,4 @@
-# Este es mi profolio
+# Este es mi portfolio
 
 ## Instalaciones
 

@@ -10,19 +10,20 @@ import solid_camper from './assets/projects/solid_camper.webp'
 import tictactoe from './assets/projects/tictactoe.webp'
 import control_gastos from './assets/projects/control_gastos.webp'
 import jest from './assets/projects/jest.svg'
+import four_frame from './assets/projects/four_frame.png'
 
 export const data = [
     {
         id: 1,
-        img: solid_camper,
-        info: 'ecommerce completa, creada con nextjs',
-        src: 'https://solidcamper.herokuapp.com/'
+        img: four_frame,
+        info: 'Four Frame',
+        src: 'https://four-frame.vercel.app/'
     },
     {
         id: 2,
-        img: crypto,
-        info: 'Aplicación para convertir el valor de las monedas más usadas a las Crypto más demandadas',
-        src: 'https://cryptos-psi.vercel.app/'
+        img: solid_camper,
+        info: 'ecommerce completa, creada con nextjs',
+        src: 'https://solidcamper.herokuapp.com/'
     },
     {
         id: 3,
@@ -54,8 +55,15 @@ export const data = [
         info: 'Planificador de gastos',
         src: 'https://control-de-gastos-nine.vercel.app/'
     },
-    
-    
+    {
+        id: 8,
+        img: crypto,
+        info: 'Aplicación para convertir el valor de las monedas más usadas a las Crypto más demandadas',
+        src: 'https://cryptos-psi.vercel.app/'
+    },
+
+
+
 ];
 
 export const iconDataFront = [
@@ -77,7 +85,7 @@ export const iconDataFront = [
         src: 'https://img.icons8.com/color/48/000000/javascript--v1.png',
         info: 'JavaScript'
     },
-    
+
 ]
 
 export const iconDataFront2 = [
@@ -100,7 +108,7 @@ export const iconDataFront2 = [
         info: 'Bootstrap'
     }
 ]
-export const iconDataFront3 = [ 
+export const iconDataFront3 = [
     {
         id: 4,
         icon: 'fab fa-git-alt',
@@ -158,7 +166,7 @@ export const iconDataDesign = [
         src: 'https://img.icons8.com/color/48/000000/adobe-after-effects--v1.png',
         info: 'after effects'
     },
-    
+
 ]
 
 export const iconDataBack = [
